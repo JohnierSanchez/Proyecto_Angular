@@ -9,7 +9,7 @@
           <li routerLinkActive="active"  class="rk-menu__item"><a routerLink="info" class="rk-menu__link">Preguntas</a>
           </li>
         </ul>
-        <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">{{year}} ProduHouse </span>Todo para tu hogar.</p>
+        <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">{{year}} {{_serviciof.info.titulo}} </span>Todo para tu hogar.</p>
       </div>
       <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
           <svg>
@@ -25,7 +25,7 @@
             <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
           </svg></a></div>
       <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-        <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Correo: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">ProduHouse@gmail.com </a></span></p>
+        <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Correo: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">{{_serviciof.info.email}} </a></span></p>
       </div>
     </div>
   </footer>
